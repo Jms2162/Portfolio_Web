@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 180">
+  <path fill="#fff" d="M0 0h300v180H0z"/>
+  <path fill="#b22234" d="M0 0h300v13.846H0zm0 27.692h300v13.846H0zm0 27.693h300v13.846H0zm0 27.692h300v13.846H0zm0 27.692h300v13.846H0zm0 27.693h300v13.846H0zm0 27.692h300v13.846H0z"/>
+  <path fill="#3c3b6e" d="M0 0h120v96.923H0z"/>
+  <defs>
+    <path id="star" fill="#fff" d="m5 0 1.47 3.03 3.35.49-2.41 2.35.57 3.33L5 7.63 2.02 9.2l.57-3.33L.18 3.52l3.35-.49z"/>
+  </defs>
+  <g>
+    <use href="#star" x="4" y="3" width="7" height="7"/>
+    <use href="#star" x="24" y="3" width="7" height="7"/>
+    <use href="#star" x="44" y="3" width="7" height="7"/>
+    <use href="#star" x="64" y="3" width="7" height="7"/>
+    <use href="#star" x="84" y="3" width="7" height="7"/>
+    <use href="#star" x="104" y="3" width="7" height="7"/>
+    <use href="#star" x="14" y="13" width="7" height="7"/>
+    <use href="#star" x="34" y="13" width="7" height="7"/>
+    <use href="#star" x="54" y="13" width="7" height="7"/>
+    <use href="#star" x="74" y="13" width="7" height="7"/>
+    <use href="#star" x="94" y="13" width="7" height="7"/>
+    <use href="#star" x="4" y="23" width="7" height="7"/>
+    <use href="#star" x="24" y="23" width="7" height="7"/>
+    <use href="#star" x="44" y="23" width="7" height="7"/>
+    <use href="#star" x="64" y="23" width="7" height="7"/>
+    <use href="#star" x="84" y="23" width="7" height="7"/>
+    <use href="#star" x="104" y="23" width="7" height="7"/>
+    <use href="#star" x="14" y="33" width="7" height="7"/>
+    <use href="#star" x="34" y="33" width="7" height="7"/>
+    <use href="#star" x="54" y="33" width="7" height="7"/>
+    <use href="#star" x="74" y="33" width="7" height="7"/>
+    <use href="#star" x="94" y="33" width="7" height="7"/>
+    <use href="#star" x="4" y="43" width="7" height="7"/>
+    <use href="#star" x="24" y="43" width="7" height="7"/>
+    <use href="#star" x="44" y="43" width="7" height="7"/>
+    <use href="#star" x="64" y="43" width="7" height="7"/>
+    <use href="#star" x="84" y="43" width="7" height="7"/>
+    <use href="#star" x="104" y="43" width="7" height="7"/>
+    <use href="#star" x="14" y="53" width="7" height="7"/>
+    <use href="#star" x="34" y="53" width="7" height="7"/>
+    <use href="#star" x="54" y="53" width="7" height="7"/>
+    <use href="#star" x="74" y="53" width="7" height="7"/>
+    <use href="#star" x="94" y="53" width="7" height="7"/>
+    <use href="#star" x="4" y="63" width="7" height="7"/>
+    <use href="#star" x="24" y="63" width="7" height="7"/>
+    <use href="#star" x="44" y="63" width="7" height="7"/>
+    <use href="#star" x="64" y="63" width="7" height="7"/>
+    <use href="#star" x="84" y="63" width="7" height="7"/>
+    <use href="#star" x="104" y="63" width="7" height="7"/>
+    <use href="#star" x="14" y="73" width="7" height="7"/>
+    <use href="#star" x="34" y="73" width="7" height="7"/>
+    <use href="#star" x="54" y="73" width="7" height="7"/>
+    <use href="#star" x="74" y="73" width="7" height="7"/>
+    <use href="#star" x="94" y="73" width="7" height="7"/>
+    <use href="#star" x="4" y="83" width="7" height="7"/>
+    <use href="#star" x="24" y="83" width="7" height="7"/>
+    <use href="#star" x="44" y="83" width="7" height="7"/>
+    <use href="#star" x="64" y="83" width="7" height="7"/>
+    <use href="#star" x="84" y="83" width="7" height="7"/>
+    <use href="#star" x="104" y="83" width="7" height="7"/>
+  </g>
+</svg>

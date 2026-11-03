@@ -45,11 +45,18 @@
           <a href="#servicios" data-i18n="nav.services">Qué hacemos</a>
           <a href="#proceso" data-i18n="nav.process">Cómo trabajamos</a>
           <a class="nav-contact" href="#contacto"><span data-i18n="nav.contact">Hablemos</span> <span aria-hidden="true">↗</span></a>
-          <div class="language-switch" role="group" aria-label="Cambiar idioma" data-i18n-aria-label="language.label">
-            <button type="button" data-language="es" aria-label="Español" aria-pressed="true"><span class="language-flag" aria-hidden="true">🇦🇷</span><span>ES</span></button>
-            <button type="button" data-language="en" aria-label="English" aria-pressed="false"><span class="language-flag" aria-hidden="true">🇺🇸</span><span>EN</span></button>
-            <button type="button" data-language="pt" aria-label="Português" aria-pressed="false"><span class="language-flag" aria-hidden="true">🇧🇷</span><span>PT</span></button>
-          </div>
+          <details class="language-selector">
+            <summary aria-label="Cambiar idioma" data-i18n-aria-label="language.label">
+              <img class="language-current-flag" data-current-language-flag src="assets/flag-ar.svg" alt="">
+              <span class="language-current-code" data-current-language-code>ES</span>
+              <svg viewBox="0 0 16 16" aria-hidden="true"><path d="m4 6 4 4 4-4"/></svg>
+            </summary>
+            <div class="language-menu" role="group" aria-label="Cambiar idioma" data-i18n-aria-label="language.label">
+              <button type="button" data-language="es" aria-label="Español" aria-pressed="true"><img src="assets/flag-ar.svg" alt=""><span>Español</span></button>
+              <button type="button" data-language="en" aria-label="English" aria-pressed="false"><img src="assets/flag-us.svg" alt=""><span>English</span></button>
+              <button type="button" data-language="pt" aria-label="Português" aria-pressed="false"><img src="assets/flag-br.svg" alt=""><span>Português</span></button>
+            </div>
+          </details>
           <button class="theme-toggle" type="button" aria-label="Activar modo oscuro" aria-pressed="false" data-i18n-aria-label="theme.enable">
             <svg class="theme-icon icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.2 15.1A8.5 8.5 0 0 1 8.9 3.8 8.5 8.5 0 1 0 20.2 15.1Z"/></svg>
             <svg class="theme-icon icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
@@ -130,15 +137,22 @@
           <div class="project-grid">
             <article class="project-card project-ruca">
               <button class="project-preview preview-ruca" type="button" data-open-demo="ruca-dialog" aria-label="Abrir mini demo de Ruca Pediátrico" data-i18n-aria-label="projects.ruca.preview">
-                <span class="preview-toolbar"><i></i><i></i><i></i><span>rucapediatrico.com.ar</span></span>
-                <span class="ruca-preview-screen">
-                  <span class="ruca-preview-nav"><img src="assets/ruca-logo.png" alt="" loading="lazy"><span aria-hidden="true">☰</span></span>
-                  <span class="ruca-preview-hero">
-                    <span class="ruca-preview-copy"><small data-i18n="demo.ruca.kicker">PEDIATRÍA EN SANTA ROSA</small><strong data-i18n-html="demo.ruca.title">Un lugar para crecer <em>con confianza.</em></strong><span data-i18n="demo.ruca.description">Un espacio dedicado a acompañar la salud y el bienestar de las infancias, con cercanía y cuidado en cada etapa.</span><i data-i18n="projects.ruca.image">Un espacio cálido para acompañar a cada familia.</i></span>
-                    <span class="ruca-preview-photo"><img src="assets/ruca-equipo.jpg" alt="Patricia Jannello y Soledad Hernández, profesionales de Ruca" data-i18n-alt="projects.ruca.alt" loading="lazy"><span data-i18n="demo.ruca.photoCaption">Patricia y Soledad, parte del equipo de Ruca</span></span>
+                <span class="project-cover project-cover-ruca">
+                  <span class="project-cover-header"><img src="assets/ruca-logo.png" alt="" loading="lazy"><span aria-hidden="true">☰</span></span>
+                  <span class="project-cover-main">
+                    <span class="project-cover-copy">
+                      <small data-i18n="demo.ruca.kicker">PEDIATRÍA EN SANTA ROSA</small>
+                      <strong data-i18n-html="demo.ruca.title">Un lugar para crecer <em>con confianza.</em></strong>
+                      <span data-i18n="demo.ruca.description">Un espacio dedicado a acompañar la salud y el bienestar de las infancias, con cercanía y cuidado en cada etapa.</span>
+                      <span class="project-cover-actions">
+                        <span class="project-cover-cta" data-i18n="demo.ruca.whatsapp">Escribinos por WhatsApp</span>
+                        <span class="project-cover-site-link" data-i18n="demo.ruca.link">Conocé Ruca ↓</span>
+                      </span>
+                    </span>
+                    <span class="project-cover-photo"><img src="assets/ruca-equipo.jpg" alt="" loading="lazy"><span data-i18n="demo.ruca.photoCaption">Patricia y Soledad, parte del equipo de Ruca</span></span>
                   </span>
+                  <span class="project-cover-note" data-i18n="projects.ruca.image">Un espacio cálido para acompañar a cada familia.</span>
                 </span>
-                <span class="preview-open"><span data-i18n="projects.explore">Explorar demo</span> <b aria-hidden="true">↗</b></span>
               </button>
               <div class="project-info">
                 <div class="project-title"><h3>Ruca Pediátrico</h3><span class="project-type" data-i18n="projects.ruca.type">Institucional</span></div>
@@ -149,12 +163,16 @@
 
             <article class="project-card project-blue">
               <button class="project-preview preview-blue" type="button" data-open-demo="blue-dialog" aria-label="Abrir mini demo de Blue Sushi" data-i18n-aria-label="projects.blue.preview">
-                <span class="preview-toolbar"><i></i><i></i><i></i><span>blue sushi · menú</span></span>
-                <span class="real-project-image">
-                  <img src="assets/blue-salmon.jpg" alt="Plato real de salmón grillado de Blue Sushi" data-i18n-alt="projects.blue.alt" loading="lazy">
-                  <span class="project-image-caption project-image-caption-blue"><img src="assets/blue-logo.png" alt="" loading="lazy"><span data-i18n="projects.blue.image">Sushi con historia en La Pampa.</span></span>
+                <span class="project-cover project-cover-blue">
+                  <img class="project-cover-backdrop" src="assets/blue-salmon.jpg" alt="" loading="lazy">
+                  <span class="project-cover-shade"></span>
+                  <span class="project-cover-blue-logo"><img src="assets/blue-logo.png" alt="" loading="lazy"></span>
+                  <span class="project-cover-blue-caption">
+                    <strong>Blue Sushi</strong>
+                    <span data-i18n="demo.blue.location">Santa Rosa · La Pampa</span>
+                    <small data-i18n="demo.blue.tagline">Sushi Bar · Delivery &amp; Take Away</small>
+                  </span>
                 </span>
-                <span class="preview-open"><span data-i18n="projects.explore">Explorar demo</span> <b aria-hidden="true">↗</b></span>
               </button>
               <div class="project-info">
                 <div class="project-title"><h3>Blue Sushi</h3><span class="project-type" data-i18n="projects.blue.type">Gastronomía</span></div>
@@ -250,7 +268,12 @@
     </a>
 
     <div class="language-transition" id="language-transition" role="status" aria-live="polite" aria-hidden="true">
-      <div class="language-transition-card"><span class="transition-flag" id="transition-flag" aria-hidden="true"></span><p id="transition-message"></p></div>
+      <div class="language-transition-card">
+        <span class="transition-flag-wrap">
+          <img class="transition-flag" id="transition-flag" src="assets/flag-ar.svg" alt="">
+        </span>
+        <p id="transition-message"></p>
+      </div>
     </div>
 
     <dialog class="demo-dialog" id="ruca-dialog" aria-labelledby="ruca-demo-title">
@@ -261,7 +284,7 @@
       <div class="demo-ruca-page">
         <div class="demo-ruca-nav"><img src="assets/ruca-logo.png" alt="Ruca Pediátrico" loading="lazy"><span data-i18n="demo.ruca.nav">El espacio　 Profesionales　 Ubicación</span><i aria-hidden="true">☰</i></div>
         <div class="demo-ruca-hero">
-          <div><small data-i18n="demo.ruca.kicker">PEDIATRÍA EN SANTA ROSA</small><h3 data-i18n-html="demo.ruca.title">Un lugar para crecer <em>con confianza.</em></h3><p data-i18n="demo.ruca.description">Un espacio dedicado a acompañar la salud y el bienestar de las infancias, con cercanía y cuidado en cada etapa.</p><div class="demo-ruca-actions"><a class="demo-ruca-whatsapp" href="https://wa.me/5492954447555" target="_blank" rel="noopener noreferrer" data-i18n="demo.ruca.whatsapp">Escribinos por WhatsApp</a><a class="demo-ruca-site" href="https://rucapediatrico.com.ar/" target="_blank" rel="noopener noreferrer" data-i18n="demo.ruca.link">Conocé Ruca ↓</a></div></div>
+          <div><small data-i18n="demo.ruca.kicker">PEDIATRÍA EN SANTA ROSA</small><h3 data-i18n-html="demo.ruca.title">Un lugar para crecer <em>con confianza.</em></h3><p data-i18n="demo.ruca.description">Un espacio dedicado a acompañar la salud y el bienestar de las infancias, con cercanía y cuidado en cada etapa.</p><div class="demo-ruca-actions"><span class="demo-ruca-whatsapp" data-i18n="demo.ruca.whatsapp">Escribinos por WhatsApp</span><a class="demo-ruca-site" href="https://rucapediatrico.com.ar/" target="_blank" rel="noopener noreferrer" data-i18n="demo.ruca.link">Conocé Ruca ↓</a></div></div>
           <figure class="demo-ruca-photo"><img src="assets/ruca-equipo.jpg" alt="Patricia Jannello y Soledad Hernández, profesionales de Ruca" data-i18n-alt="demo.ruca.photoAlt" loading="lazy"><figcaption data-i18n="demo.ruca.photoCaption">Patricia y Soledad, parte del equipo de Ruca</figcaption><div class="demo-ruca-controls" aria-hidden="true"><span>←</span><i></i><i></i><i></i><i></i><i></i><i></i><i></i><span>→</span></div></figure>
         </div>
         <div class="demo-ruca-bottom"><strong data-i18n="demo.ruca.bottom">Un espacio cálido para acompañar a cada familia.</strong><span>Santa Rosa · La Pampa</span></div>
@@ -289,9 +312,9 @@
             <article class="demo-menu-item" data-menu-category="entradas" hidden><span>02</span><div><b>Ebi Furai</b><small data-i18n="demo.blue.item.furai">Langostinos rebozados en panko</small></div><i>↗</i></article>
           </div>
         </div>
-        <a class="demo-order whatsapp-link" data-whatsapp-message="whatsapp.blue" href="https://wa.me/5491125547478?text=Hola%2C%20quiero%20hacer%20un%20pedido%20de%20Blue%20Sushi." target="_blank" rel="noopener noreferrer"><span data-i18n="demo.blue.order">Hacer un pedido por WhatsApp</span> <span>↗</span></a>
+        <span class="demo-order"><span data-i18n="demo.blue.order">Hacer un pedido por WhatsApp</span> <span aria-hidden="true">↗</span></span>
       </div>
-      <p class="demo-caption" data-i18n="demo.blue.note">Vista previa interactiva de la carta. Elegí una categoría o probá el acceso a WhatsApp.</p>
+      <p class="demo-caption" data-i18n="demo.blue.note">Vista previa interactiva de la carta. Elegí una categoría para explorar el menú.</p>
     </dialog>
   </body>
 </html>

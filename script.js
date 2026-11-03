@@ -39,14 +39,10 @@ const translations = {
     "projects.description": "Cada negocio es distinto. Diseñamos sitios que reflejan su identidad también en internet.",
     "projects.ruca.preview": "Abrir mini demo de Ruca Pediátrico",
     "projects.ruca.image": "Un espacio cálido para acompañar a cada familia.",
-    "projects.ruca.alt": "Patricia Jannello y Soledad Hernández, profesionales de Ruca",
-    "projects.explore": "Explorar demo",
     "projects.ruca.type": "Institucional",
     "projects.ruca.description": "Un espacio digital cercano y claro para acompañar a las familias y presentar a su equipo profesional.",
     "projects.viewDemo": "Ver mini demo",
     "projects.blue.preview": "Abrir mini demo de Blue Sushi",
-    "projects.blue.image": "Sushi con historia en La Pampa.",
-    "projects.blue.alt": "Plato real de salmón grillado de Blue Sushi",
     "projects.blue.type": "Gastronomía",
     "projects.blue.description": "Una carta digital para descubrir el menú, conocer el restaurante y hacer pedidos por WhatsApp.",
     "services.eyebrow": "Simple, desde el comienzo",
@@ -96,6 +92,7 @@ const translations = {
     "demo.ruca.note": "Vista previa del proyecto. El enlace abre el sitio publicado.",
     "demo.blue.eyebrow": "Mini demo · Gastronomía",
     "demo.blue.location": "Santa Rosa · La Pampa",
+    "demo.blue.tagline": "Sushi Bar · Delivery & Take Away",
     "demo.blue.kicker": "UNA HISTORIA EN CADA PIEZA",
     "demo.blue.title": "Sushi con historia en el corazón de <em>La Pampa.</em>",
     "demo.blue.description": "Una selección para compartir, preparada a mano.",
@@ -111,7 +108,7 @@ const translations = {
     "demo.blue.item.tartare.description": "Salmón, palta y mayonesa japonesa",
     "demo.blue.item.furai": "Langostinos rebozados en panko",
     "demo.blue.order": "Hacer un pedido por WhatsApp",
-    "demo.blue.note": "Vista previa interactiva de la carta. Elegí una categoría o probá el acceso a WhatsApp."
+    "demo.blue.note": "Vista previa interactiva de la carta. Elegí una categoría para explorar el menú."
   },
   en: {
     skip: "Skip to content",
@@ -151,14 +148,10 @@ const translations = {
     "projects.description": "Every business is different. We design websites that reflect what makes it unique.",
     "projects.ruca.preview": "Open the Ruca Pediátrico mini demo",
     "projects.ruca.image": "A warm space for every family.",
-    "projects.ruca.alt": "Patricia Jannello and Soledad Hernández, Ruca professionals",
-    "projects.explore": "Explore demo",
     "projects.ruca.type": "Healthcare",
     "projects.ruca.description": "A welcoming, clear online home for families and the professionals who care for them.",
     "projects.viewDemo": "View mini demo",
     "projects.blue.preview": "Open the Blue Sushi mini demo",
-    "projects.blue.image": "Sushi with a story in La Pampa.",
-    "projects.blue.alt": "Blue Sushi's grilled salmon dish",
     "projects.blue.type": "Restaurant",
     "projects.blue.description": "A digital menu to discover the dishes, get to know the restaurant and order on WhatsApp.",
     "services.eyebrow": "Simple from the start",
@@ -208,6 +201,7 @@ const translations = {
     "demo.ruca.note": "Project preview. Follow the link to visit the live website.",
     "demo.blue.eyebrow": "Mini demo · Restaurant",
     "demo.blue.location": "Santa Rosa · La Pampa",
+    "demo.blue.tagline": "Sushi Bar · Delivery & Takeaway",
     "demo.blue.kicker": "A STORY IN EVERY PIECE",
     "demo.blue.title": "Sushi with a story in the heart of <em>La Pampa.</em>",
     "demo.blue.description": "A selection to share, freshly prepared by hand.",
@@ -223,7 +217,7 @@ const translations = {
     "demo.blue.item.tartare.description": "Salmon, avocado and Japanese mayo",
     "demo.blue.item.furai": "Panko-breaded shrimp",
     "demo.blue.order": "Order on WhatsApp",
-    "demo.blue.note": "Interactive menu preview. Pick a category or try the WhatsApp link."
+    "demo.blue.note": "Interactive menu preview. Pick a category to explore the menu."
   },
   pt: {
     skip: "Pular para o conteúdo",
@@ -263,14 +257,10 @@ const translations = {
     "projects.description": "Cada negócio é diferente. Criamos sites que refletem sua identidade também na internet.",
     "projects.ruca.preview": "Abrir mini demo do Ruca Pediátrico",
     "projects.ruca.image": "Um espaço acolhedor para acompanhar cada família.",
-    "projects.ruca.alt": "Patricia Jannello e Soledad Hernández, profissionais do Ruca",
-    "projects.explore": "Explorar demo",
     "projects.ruca.type": "Institucional",
     "projects.ruca.description": "Um espaço digital acolhedor e claro para receber as famílias e apresentar a equipe profissional.",
     "projects.viewDemo": "Ver mini demo",
     "projects.blue.preview": "Abrir mini demo do Blue Sushi",
-    "projects.blue.image": "Sushi com história em La Pampa.",
-    "projects.blue.alt": "Prato de salmão grelhado do Blue Sushi",
     "projects.blue.type": "Gastronomia",
     "projects.blue.description": "Um cardápio digital para conhecer os pratos, descobrir o restaurante e fazer pedidos pelo WhatsApp.",
     "services.eyebrow": "Simples desde o começo",
@@ -320,6 +310,7 @@ const translations = {
     "demo.ruca.note": "Prévia do projeto. O link abre o site publicado.",
     "demo.blue.eyebrow": "Mini demo · Gastronomia",
     "demo.blue.location": "Santa Rosa · La Pampa",
+    "demo.blue.tagline": "Sushi Bar · Delivery & Take Away",
     "demo.blue.kicker": "UMA HISTÓRIA EM CADA PEÇA",
     "demo.blue.title": "Sushi com história no coração de <em>La Pampa.</em>",
     "demo.blue.description": "Uma seleção para compartilhar, preparada à mão.",
@@ -335,18 +326,19 @@ const translations = {
     "demo.blue.item.tartare.description": "Salmão, abacate e maionese japonesa",
     "demo.blue.item.furai": "Camarões empanados em panko",
     "demo.blue.order": "Peça pelo WhatsApp",
-    "demo.blue.note": "Prévia interativa do cardápio. Escolha uma categoria ou experimente o WhatsApp."
+    "demo.blue.note": "Prévia interativa do cardápio. Escolha uma categoria para explorar o menu."
   }
 };
 
 const localeFlags = {
-  es: { flag: "🇦🇷", lang: "es-AR" },
-  en: { flag: "🇺🇸", lang: "en" },
-  pt: { flag: "🇧🇷", lang: "pt-BR" }
+  es: { flag: "assets/flag-ar.svg", lang: "es-AR", code: "ES" },
+  en: { flag: "assets/flag-us.svg", lang: "en", code: "EN" },
+  pt: { flag: "assets/flag-br.svg", lang: "pt-BR", code: "PT" }
 };
 
 const menuToggle = document.querySelector(".menu-toggle");
 const siteNavigation = document.querySelector("#site-navigation");
+const languageSelector = document.querySelector(".language-selector");
 const themeToggle = document.querySelector(".theme-toggle");
 const languageTransition = document.querySelector("#language-transition");
 const transitionFlag = document.querySelector("#transition-flag");
@@ -410,6 +402,8 @@ function translatePage(locale) {
   languageButtons.forEach((button) => {
     button.setAttribute("aria-pressed", String(button.dataset.language === locale));
   });
+  document.querySelector("[data-current-language-flag]").src = localeFlags[locale].flag;
+  document.querySelector("[data-current-language-code]").textContent = localeFlags[locale].code;
 
   document.querySelectorAll(".whatsapp-link").forEach((link) => {
     const messageKey = link.dataset.whatsappMessage;
@@ -425,8 +419,7 @@ function translatePage(locale) {
 }
 
 function showLanguageTransition(locale) {
-  const selectedLanguage = localeFlags[locale];
-  transitionFlag.textContent = selectedLanguage.flag;
+  transitionFlag.src = localeFlags[locale].flag;
   transitionMessage.textContent = translations[locale]["language.announcement"];
   languageTransition.setAttribute("aria-hidden", "false");
   languageTransition.classList.remove("is-visible");
@@ -435,7 +428,7 @@ function showLanguageTransition(locale) {
   transitionTimeout = window.setTimeout(() => {
     languageTransition.classList.remove("is-visible");
     languageTransition.setAttribute("aria-hidden", "true");
-  }, 1800);
+  }, 1500);
 }
 
 function setLocale(locale, announce = false) {
@@ -502,7 +495,21 @@ document.querySelectorAll(".demo-dialog").forEach((dialog) => {
 });
 
 document.querySelectorAll("[data-language]").forEach((button) => {
-  button.addEventListener("click", () => setLocale(button.dataset.language, true));
+  button.addEventListener("click", () => {
+    setLocale(button.dataset.language, true);
+    languageSelector.open = false;
+    if (menuToggle?.getAttribute("aria-expanded") === "true" && siteNavigation) {
+      menuToggle.setAttribute("aria-expanded", "false");
+      menuToggle.setAttribute("aria-label", translations[button.dataset.language]["menu.open"]);
+      siteNavigation.classList.remove("is-open");
+    }
+  });
+});
+
+document.addEventListener("click", (event) => {
+  if (event.target instanceof Node && !languageSelector.contains(event.target)) {
+    languageSelector.open = false;
+  }
 });
 
 themeToggle.addEventListener("click", () => {
