@@ -401,7 +401,7 @@ body[data-theme="dark"] .brand-logo-dark { display: block; }
   .process-layout { grid-template-columns: 1fr; gap: 34px; }
   .contact-inner { min-height: 0; flex-direction: column; align-items: flex-start; gap: 23px; padding-block: 14px; }
   .contact h2 { font-size: 56px; }
-  .contact-spark { top: -9px; right: -44px; font-size: 150px; }
+  .contact-spark { display: none; }
   .footer-inner { flex-wrap: wrap; gap: 14px 18px; }
   .footer-inner p { width: calc(100% - 150px); }
   .footer-inner > a:last-of-type { margin-left: 0; }
