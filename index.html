@@ -158,14 +158,17 @@
               <div class="project-info">
                 <div class="project-title"><h3>Ruca Pediátrico</h3><span class="project-type" data-i18n="projects.ruca.type">Institucional</span></div>
                 <p data-i18n="projects.ruca.description">Un espacio digital cercano y claro para acompañar a las familias y presentar a su equipo profesional.</p>
-                <button class="project-link" type="button" data-open-demo="ruca-dialog"><span data-i18n="projects.viewDemo">Ver mini demo</span><svg class="ui-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12 12 4M5 4h7v7"/></svg></button>
+                <div class="project-actions">
+                  <button class="project-link" type="button" data-open-demo="ruca-dialog"><span data-i18n="projects.viewDemo">Ver mini demo</span><svg class="ui-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12 12 4M5 4h7v7"/></svg></button>
+                  <a class="project-link" href="https://rucapediatrico.com.ar/" target="_blank" rel="noopener noreferrer"><span data-i18n="projects.liveSite">Visitar sitio</span><svg class="ui-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12 12 4M5 4h7v7"/></svg></a>
+                </div>
               </div>
             </article>
 
             <article class="project-card project-blue">
               <button class="project-preview preview-blue" type="button" data-open-demo="blue-dialog" aria-label="Abrir mini demo de Blue Sushi" data-i18n-aria-label="projects.blue.preview">
                 <span class="project-cover project-cover-blue">
-                  <img class="project-cover-backdrop" src="assets/blue-salmon.jpg" alt="" loading="lazy">
+                  <span class="project-cover-backdrop"></span>
                   <span class="project-cover-shade"></span>
                   <span class="project-cover-blue-logo"><img src="assets/blue-logo.png" alt="" loading="lazy"></span>
                   <span class="project-cover-blue-caption">
@@ -178,7 +181,9 @@
               <div class="project-info">
                 <div class="project-title"><h3>Blue Sushi</h3><span class="project-type" data-i18n="projects.blue.type">Gastronomía</span></div>
                 <p data-i18n="projects.blue.description">Una carta digital para descubrir el menú, conocer el restaurante y hacer pedidos por WhatsApp.</p>
-                <button class="project-link" type="button" data-open-demo="blue-dialog"><span data-i18n="projects.viewDemo">Ver mini demo</span><svg class="ui-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12 12 4M5 4h7v7"/></svg></button>
+                <div class="project-actions">
+                  <button class="project-link" type="button" data-open-demo="blue-dialog"><span data-i18n="projects.viewDemo">Ver mini demo</span><svg class="ui-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12 12 4M5 4h7v7"/></svg></button>
+                </div>
               </div>
             </article>
           </div>
@@ -299,9 +304,9 @@
         <button class="dialog-close" type="button" data-close-dialog aria-label="Cerrar demo" data-i18n-aria-label="demo.close"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m5 5 10 10M15 5 5 15"/></svg></button>
       </div>
       <div class="demo-blue-page">
-        <div class="demo-blue-nav"><img src="assets/blue-logo.png" alt="Blue Sushi" loading="lazy"><small data-i18n="demo.blue.location">Santa Rosa · La Pampa</small></div>
-        <div class="demo-blue-hero"><div><small data-i18n="demo.blue.kicker">UNA HISTORIA EN CADA PIEZA</small><h3 data-i18n-html="demo.blue.title">Sushi con historia en el corazón de <em>La Pampa.</em></h3><p data-i18n="demo.blue.description">Una selección para compartir, preparada a mano.</p></div><img class="demo-blue-photo" src="assets/blue-tartare.jpg" alt="Plato de tartare de salmón de Blue Sushi" data-i18n-alt="demo.blue.photoAlt" loading="lazy"></div>
-        <div class="demo-menu">
+        <div class="demo-blue-nav"><img src="assets/blue-logo.png" alt="Blue Sushi" loading="lazy"><div class="demo-blue-nav-links"><a href="#demo-blue-about" data-i18n="demo.blue.nav.about">Quiénes somos</a><a href="#demo-blue-menu" data-i18n="demo.blue.nav.pieces">Piezas</a><a href="#demo-blue-order" data-i18n="demo.blue.nav.order">Pedir</a></div></div>
+        <div class="demo-blue-hero" id="demo-blue-about"><div><small data-i18n="demo.blue.kicker">PIONEROS DEL SUSHI EN ARGENTINA</small><h3 data-i18n-html="demo.blue.title">Sushi con historia en el corazón de <em>La Pampa</em></h3><p data-i18n="demo.blue.description">Una de las primeras casas de sushi de Argentina, ahora en Santa Rosa. Armá tu pedido online y retiralo o recibilo en tu casa.</p><div class="demo-blue-actions"><span class="demo-blue-order-cta" data-i18n="demo.blue.hero.order">Hacer un pedido</span><a href="#demo-blue-menu"><span data-i18n="demo.blue.hero.menu">Ver las piezas</span><svg class="ui-arrow-down" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3v10m-4-4 4 4 4-4"/></svg></a></div></div><div class="demo-blue-logo-orbit"><img src="assets/blue-logo.png" alt="Blue Sushi"></div></div>
+        <div class="demo-menu" id="demo-blue-menu">
           <div class="demo-menu-heading"><div><small data-i18n="demo.blue.menu.kicker">UN RECORRIDO POR LA CARTA</small><h3 data-i18n="demo.blue.menu.title">Algo rico te espera.</h3></div><div class="demo-tabs" role="group" aria-label="Categorías de menú" data-i18n-aria-label="demo.blue.menu.label">
             <button type="button" data-menu-tab="sushi" aria-pressed="true" data-i18n="demo.blue.menu.sushi">Sushi</button>
             <button type="button" data-menu-tab="entradas" aria-pressed="false" data-i18n="demo.blue.menu.starters">Entradas</button>
@@ -313,7 +318,7 @@
             <article class="demo-menu-item" data-menu-category="entradas" hidden><span>02</span><div><b>Ebi Furai</b><small data-i18n="demo.blue.item.furai">Langostinos rebozados en panko</small></div><svg class="ui-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12 12 4M5 4h7v7"/></svg></article>
           </div>
         </div>
-        <span class="demo-order"><span data-i18n="demo.blue.order">Hacer un pedido por WhatsApp</span><svg class="ui-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12 12 4M5 4h7v7"/></svg></span>
+        <span class="demo-order" id="demo-blue-order"><span data-i18n="demo.blue.order">Completá tu pedido online</span><svg class="ui-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12 12 4M5 4h7v7"/></svg></span>
       </div>
       <p class="demo-caption" data-i18n="demo.blue.note">Vista previa interactiva de la carta. Elegí una categoría para explorar el menú.</p>
     </dialog>
