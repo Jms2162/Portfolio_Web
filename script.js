@@ -5,6 +5,8 @@ const translations = {
     skip: "Saltar al contenido",
     "meta.title": "jsdigital | Diseño web para negocios",
     "meta.description": "Diseño y desarrollo de sitios web para comercios y negocios. Conocé proyectos y conversemos por WhatsApp.",
+    "meta.social.title": "jsdigital | Diseño web para negocios",
+    "meta.social.description": "Diseño y desarrollo de sitios web para comercios. Conocé proyectos y conversemos por WhatsApp.",
     "brand.home": "jsdigital, inicio",
     "brand.top": "jsdigital, volver al inicio",
     "nav.label": "Navegación principal",
@@ -58,6 +60,17 @@ const translations = {
     "services.responsive.title": "Diseño adaptable",
     "services.responsive.description": "Una experiencia cuidada y cómoda, tanto en el celular como en la computadora.",
     "services.responsive.tag": "Todos los dispositivos",
+    "services.details.included.title": "Qué contempla el sitio",
+    "services.details.included.design": "Diseño alineado a tu marca y adaptable a celulares, tablets y computadoras.",
+    "services.details.included.sections": "Secciones para presentar tu negocio, tus servicios y la información importante.",
+    "services.details.included.links": "Accesos directos a WhatsApp, redes y ubicación, según lo que necesites.",
+    "services.details.included.launch": "Acompañamiento para organizar el contenido y publicar el sitio.",
+    "services.details.start.title": "Qué nos ayuda a empezar",
+    "services.details.start.business": "A qué se dedica tu negocio y qué servicios o productos ofrece.",
+    "services.details.start.goal": "Qué querés lograr con la web y a quién querés llegar.",
+    "services.details.start.materials": "Tu logo, fotos, textos y datos de contacto, si ya los tenés.",
+    "services.details.start.scope": "Si todavía te falta material, lo conversamos y definimos el alcance juntos.",
+    "services.details.note": "La propuesta detalla el alcance, los plazos, la publicación y cualquier costo de dominio, hosting o mantenimiento antes de empezar.",
     "process.eyebrow": "Sin complicaciones",
     "process.title": "De la primera charla a estar online.",
     "process.description": "Vos conocés tu negocio. Nosotros te ayudamos a mostrarlo de la mejor manera.",
@@ -72,6 +85,7 @@ const translations = {
     "contact.title": "¿Lo charlamos?",
     "contact.description": "Contame tu idea y vemos juntos qué sitio necesita tu negocio.",
     "contact.whatsapp": "Escribime por WhatsApp",
+    "contact.reassurance": "Contame sobre tu negocio: te orientamos y vemos los próximos pasos, sin compromiso.",
     "footer.tagline": "Diseño web para negocios reales.",
     "footer.top": "Volver arriba",
     "footer.note": "Hecho con intención.",
@@ -120,6 +134,8 @@ const translations = {
     skip: "Skip to content",
     "meta.title": "jsdigital | Websites for small businesses",
     "meta.description": "Website design and development for local businesses. Explore our projects and get in touch on WhatsApp.",
+    "meta.social.title": "jsdigital | Websites for small businesses",
+    "meta.social.description": "Website design and development for local businesses. Explore our projects and get in touch on WhatsApp.",
     "brand.home": "jsdigital, home",
     "brand.top": "jsdigital, back to top",
     "nav.label": "Main navigation",
@@ -173,6 +189,17 @@ const translations = {
     "services.responsive.title": "Responsive design",
     "services.responsive.description": "A polished, easy-to-use experience on phones, tablets and computers.",
     "services.responsive.tag": "Every device",
+    "services.details.included.title": "What the website includes",
+    "services.details.included.design": "A design that fits your brand and works on phones, tablets and computers.",
+    "services.details.included.sections": "Sections to present your business, services and key information.",
+    "services.details.included.links": "Direct links to WhatsApp, social media and directions, based on your needs.",
+    "services.details.included.launch": "Guidance to organize your content and publish the website.",
+    "services.details.start.title": "What helps us get started",
+    "services.details.start.business": "What your business does and the services or products it offers.",
+    "services.details.start.goal": "What you want the website to achieve and who you want to reach.",
+    "services.details.start.materials": "Your logo, photos, copy and contact details, if you have them.",
+    "services.details.start.scope": "If you are still missing some materials, we can discuss options and define the scope together.",
+    "services.details.note": "The proposal sets out the scope, timeline, launch details and any domain, hosting or maintenance costs before work begins.",
     "process.eyebrow": "No complications",
     "process.title": "From our first chat to launch.",
     "process.description": "You know your business. We help you show it at its best.",
@@ -187,6 +214,7 @@ const translations = {
     "contact.title": "Shall we talk?",
     "contact.description": "Tell me about your idea and we'll figure out the right website for your business.",
     "contact.whatsapp": "Message me on WhatsApp",
+    "contact.reassurance": "Tell us about your business. We'll offer guidance and discuss next steps, with no obligation.",
     "footer.tagline": "Web design for real businesses.",
     "footer.top": "Back to top",
     "footer.note": "Made with intention.",
@@ -235,6 +263,8 @@ const translations = {
     skip: "Pular para o conteúdo",
     "meta.title": "jsdigital | Sites para pequenos negócios",
     "meta.description": "Criação e desenvolvimento de sites para comércios e empresas. Conheça nossos projetos e fale conosco pelo WhatsApp.",
+    "meta.social.title": "jsdigital | Sites para pequenos negócios",
+    "meta.social.description": "Criação e desenvolvimento de sites para comércios. Conheça nossos projetos e fale conosco pelo WhatsApp.",
     "brand.home": "jsdigital, início",
     "brand.top": "jsdigital, voltar ao início",
     "nav.label": "Navegação principal",
@@ -288,6 +318,17 @@ const translations = {
     "services.responsive.title": "Design responsivo",
     "services.responsive.description": "Uma experiência agradável e fácil de usar no celular, tablet ou computador.",
     "services.responsive.tag": "Todos os dispositivos",
+    "services.details.included.title": "O que o site inclui",
+    "services.details.included.design": "Design alinhado à sua marca e adaptado para celulares, tablets e computadores.",
+    "services.details.included.sections": "Seções para apresentar seu negócio, serviços e informações importantes.",
+    "services.details.included.links": "Links diretos para WhatsApp, redes sociais e localização, conforme sua necessidade.",
+    "services.details.included.launch": "Orientação para organizar o conteúdo e publicar o site.",
+    "services.details.start.title": "O que ajuda a começar",
+    "services.details.start.business": "O que seu negócio faz e quais serviços ou produtos oferece.",
+    "services.details.start.goal": "O que você quer alcançar com o site e quem deseja atingir.",
+    "services.details.start.materials": "Seu logo, fotos, textos e dados de contato, se já tiver.",
+    "services.details.start.scope": "Se ainda faltam materiais, conversamos e definimos o escopo juntos.",
+    "services.details.note": "A proposta detalha o escopo, os prazos, a publicação e eventuais custos de domínio, hospedagem ou manutenção antes do início.",
     "process.eyebrow": "Sem complicação",
     "process.title": "Da primeira conversa ao lançamento.",
     "process.description": "Você conhece seu negócio. Nós ajudamos a mostrar o melhor dele.",
@@ -302,6 +343,7 @@ const translations = {
     "contact.title": "Vamos conversar?",
     "contact.description": "Conte sua ideia e vamos descobrir juntos qual site seu negócio precisa.",
     "contact.whatsapp": "Fale comigo pelo WhatsApp",
+    "contact.reassurance": "Conte sobre seu negócio: vamos orientar você e conversar sobre os próximos passos, sem compromisso.",
     "footer.tagline": "Sites para negócios de verdade.",
     "footer.top": "Voltar ao topo",
     "footer.note": "Feito com intenção.",
@@ -533,6 +575,22 @@ document.addEventListener("click", (event) => {
 themeToggle.addEventListener("click", () => {
   setTheme(document.body.dataset.theme === "dark" ? "light" : "dark");
 });
+
+const floatingContact = document.querySelector(".floating-contact");
+const contactSection = document.querySelector("#contacto");
+if (floatingContact && contactSection) {
+  let contactIsVisible = false;
+  const updateFloatingContact = () => {
+    floatingContact.classList.toggle("is-visible", window.scrollY > 420 && !contactIsVisible);
+  };
+  const contactObserver = new IntersectionObserver(([entry]) => {
+    contactIsVisible = entry.isIntersecting;
+    updateFloatingContact();
+  }, { threshold: 0.1 });
+  contactObserver.observe(contactSection);
+  window.addEventListener("scroll", updateFloatingContact, { passive: true });
+  updateFloatingContact();
+}
 
 document.querySelectorAll("[data-menu-tab]").forEach((tab) => {
   tab.addEventListener("click", () => {

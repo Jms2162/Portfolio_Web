@@ -10,6 +10,23 @@
       data-i18n-content="meta.description"
     >
     <title data-i18n="meta.title">jsdigital | Diseño web para negocios</title>
+    <link rel="canonical" href="https://jms2162.github.io/Portfolio_Web/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="jsdigital">
+    <meta property="og:locale" content="es_AR">
+    <meta property="og:url" content="https://jms2162.github.io/Portfolio_Web/">
+    <meta property="og:title" content="jsdigital | Diseño web para negocios" data-i18n-content="meta.social.title">
+    <meta property="og:description" content="Diseño y desarrollo de sitios web para comercios. Conocé proyectos y conversemos por WhatsApp." data-i18n-content="meta.social.description">
+    <meta property="og:image" content="https://jms2162.github.io/Portfolio_Web/assets/jsdigital-social.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="jsdigital: diseño web para comercios">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="jsdigital | Diseño web para negocios" data-i18n-content="meta.social.title">
+    <meta name="twitter:description" content="Diseño y desarrollo de sitios web para comercios. Conocé proyectos y conversemos por WhatsApp." data-i18n-content="meta.social.description">
+    <meta name="twitter:image" content="https://jms2162.github.io/Portfolio_Web/assets/jsdigital-social.png">
+    <meta name="twitter:image:alt" content="jsdigital: diseño web para comercios">
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico?v=1" sizes="16x16 32x32 48x48 64x64">
     <link rel="icon" type="image/png" href="assets/jsdigital-icon.png?v=1" sizes="64x64">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,6 +37,36 @@
     >
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://jms2162.github.io/Portfolio_Web/#organization",
+            "name": "jsdigital",
+            "url": "https://jms2162.github.io/Portfolio_Web/",
+            "logo": "https://jms2162.github.io/Portfolio_Web/assets/jsdigital-icon.svg",
+            "image": "https://jms2162.github.io/Portfolio_Web/assets/jsdigital-social.png",
+            "description": "Diseño y desarrollo de sitios web para comercios y negocios.",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+5491125547478",
+              "contactType": "sales",
+              "availableLanguage": ["Spanish", "English", "Portuguese"]
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://jms2162.github.io/Portfolio_Web/#website",
+            "url": "https://jms2162.github.io/Portfolio_Web/",
+            "name": "jsdigital",
+            "inLanguage": "es-AR",
+            "publisher": { "@id": "https://jms2162.github.io/Portfolio_Web/#organization" }
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
     <a class="skip-link" href="#contenido" data-i18n="skip">Saltar al contenido</a>
@@ -67,7 +114,7 @@
       </div>
     </header>
 
-    <main id="contenido">
+    <main id="contenido" tabindex="-1">
       <section class="hero section" id="inicio">
         <div class="container hero-grid">
           <div class="hero-copy">
@@ -89,7 +136,7 @@
             </div>
           </div>
 
-          <div class="hero-art" aria-label="Ilustración de una página web en una pantalla" data-i18n-aria-label="hero.art.label">
+          <div class="hero-art" role="img" aria-label="Ilustración de una página web en una pantalla" data-i18n-aria-label="hero.art.label">
             <div class="art-orbit orbit-one"></div>
             <div class="art-orbit orbit-two"></div>
             <svg class="art-spark spark-one ui-sparkle" viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2.5 2.4 7.1 7.1 2.4-7.1 2.4-2.4 7.1-2.4-7.1-7.1-2.4 7.1-2.4L12 2.5Z"/></svg>
@@ -100,7 +147,7 @@
                 <div class="browser-address"></div>
               </div>
               <div class="browser-body">
-                <div class="browser-brand"><img src="assets/jsdigital-logo.svg" alt="JS Digital"><span data-i18n="hero.art.nav">Inicio　Servicios　Contacto</span></div>
+                <div class="browser-brand"><img src="assets/jsdigital-logo.svg" alt="JS Digital" width="310" height="72"><span data-i18n="hero.art.nav">Inicio　Servicios　Contacto</span></div>
                 <div class="browser-content">
                   <div class="browser-copy">
                     <small data-i18n="hero.art.kicker">UN LUGAR PARA VOS</small>
@@ -139,7 +186,7 @@
             <article class="project-card project-ruca">
               <button class="project-preview preview-ruca" type="button" data-open-demo="ruca-dialog" aria-label="Abrir mini demo de Ruca Pediátrico" data-i18n-aria-label="projects.ruca.preview">
                 <span class="project-cover project-cover-ruca">
-                  <span class="project-cover-header"><img src="assets/ruca-logo.png" alt="" loading="lazy"><span class="project-menu-icon" aria-hidden="true"><i></i><i></i></span></span>
+                  <span class="project-cover-header"><img src="assets/ruca-logo.png" alt="" width="400" height="149" loading="lazy"><span class="project-menu-icon" aria-hidden="true"><i></i><i></i></span></span>
                   <span class="project-cover-main">
                     <span class="project-cover-copy">
                       <small data-i18n="demo.ruca.kicker">PEDIATRÍA EN SANTA ROSA</small>
@@ -150,7 +197,7 @@
                         <span class="project-cover-site-link"><span data-i18n="demo.ruca.link">Conocé Ruca</span><svg class="ui-arrow-down" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3v10m-4-4 4 4 4-4"/></svg></span>
                       </span>
                     </span>
-                    <span class="project-cover-photo"><img src="assets/ruca-equipo.jpg" alt="" loading="lazy"><span data-i18n="demo.ruca.photoCaption">Patricia y Soledad, parte del equipo de Ruca</span></span>
+                    <span class="project-cover-photo"><img src="assets/ruca-equipo.jpg" alt="" width="853" height="1280" loading="lazy"><span data-i18n="demo.ruca.photoCaption">Patricia y Soledad, parte del equipo de Ruca</span></span>
                   </span>
                   <span class="project-cover-note" data-i18n="projects.ruca.image">Un espacio cálido para acompañar a cada familia.</span>
                 </span>
@@ -170,7 +217,7 @@
                 <span class="project-cover project-cover-blue">
                   <span class="project-cover-backdrop"></span>
                   <span class="project-cover-shade"></span>
-                  <span class="project-cover-blue-logo"><img src="assets/blue-logo.png" alt="" loading="lazy"></span>
+                  <span class="project-cover-blue-logo"><img src="assets/blue-logo.png" alt="" width="900" height="300" loading="lazy"></span>
                   <span class="project-cover-blue-caption">
                     <strong>Blue Sushi</strong>
                     <span data-i18n="demo.blue.location">Santa Rosa · La Pampa</span>
@@ -222,6 +269,27 @@
               <span class="service-tag" data-i18n="services.responsive.tag">Todos los dispositivos</span>
             </article>
           </div>
+          <div class="service-details">
+            <article>
+              <h3 data-i18n="services.details.included.title">Qué contempla el sitio</h3>
+              <ul>
+                <li data-i18n="services.details.included.design">Diseño alineado a tu marca y adaptable a celulares, tablets y computadoras.</li>
+                <li data-i18n="services.details.included.sections">Secciones para presentar tu negocio, tus servicios y la información importante.</li>
+                <li data-i18n="services.details.included.links">Accesos directos a WhatsApp, redes y ubicación, según lo que necesites.</li>
+                <li data-i18n="services.details.included.launch">Acompañamiento para organizar el contenido y publicar el sitio.</li>
+              </ul>
+            </article>
+            <article>
+              <h3 data-i18n="services.details.start.title">Qué nos ayuda a empezar</h3>
+              <ul>
+                <li data-i18n="services.details.start.business">A qué se dedica tu negocio y qué servicios o productos ofrece.</li>
+                <li data-i18n="services.details.start.goal">Qué querés lograr con la web y a quién querés llegar.</li>
+                <li data-i18n="services.details.start.materials">Tu logo, fotos, textos y datos de contacto, si ya los tenés.</li>
+                <li data-i18n="services.details.start.scope">Si todavía te falta material, lo conversamos y definimos el alcance juntos.</li>
+              </ul>
+            </article>
+            <p class="service-details-note" data-i18n="services.details.note">La propuesta detalla el alcance, los plazos, la publicación y cualquier costo de dominio, hosting o mantenimiento antes de empezar.</p>
+          </div>
         </div>
       </section>
 
@@ -248,10 +316,13 @@
             <h2 data-i18n="contact.title">¿Lo charlamos?</h2>
             <p data-i18n="contact.description">Contame tu idea y vemos juntos qué sitio necesita tu negocio.</p>
           </div>
-          <a class="button button-light whatsapp-link" data-whatsapp-message="whatsapp.general" href="https://wa.me/5491125547478?text=Hola%2C%20quiero%20consultar%20por%20un%20sitio%20web." target="_blank" rel="noopener noreferrer">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.1 11.7a8.1 8.1 0 0 1-12 7.1L4 20l1.2-4.1a8.1 8.1 0 1 1 14.9-4.2Z"/><path d="M9.1 8.6c.2-.5.5-.5.8-.5h.5c.2 0 .3.1.4.4l.7 1.6c.1.2.1.4-.1.6l-.5.6c-.2.2-.2.4 0 .6.4.7 1 1.2 1.7 1.6.2.1.4.1.6-.1l.7-.7c.2-.2.4-.2.6-.1l1.6.8c.2.1.3.3.2.5-.1.6-.4 1.1-.9 1.4-.5.3-1.1.4-1.8.2-.9-.2-2.1-.8-3.2-1.8-1-1-1.6-2.1-1.8-3-.2-.7 0-1.4.4-2.1Z"/></svg>
-            <span data-i18n="contact.whatsapp">Escribime por WhatsApp</span><svg class="ui-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12 12 4M5 4h7v7"/></svg>
-          </a>
+          <div class="contact-action">
+            <a class="button button-light whatsapp-link" data-whatsapp-message="whatsapp.general" href="https://wa.me/5491125547478?text=Hola%2C%20quiero%20consultar%20por%20un%20sitio%20web." target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.1 11.7a8.1 8.1 0 0 1-12 7.1L4 20l1.2-4.1a8.1 8.1 0 1 1 14.9-4.2Z"/><path d="M9.1 8.6c.2-.5.5-.5.8-.5h.5c.2 0 .3.1.4.4l.7 1.6c.1.2.1.4-.1.6l-.5.6c-.2.2-.2.4 0 .6.4.7 1 1.2 1.7 1.6.2.1.4.1.6-.1l.7-.7c.2-.2.4-.2.6-.1l1.6.8c.2.1.3.3.2.5-.1.6-.4 1.1-.9 1.4-.5.3-1.1.4-1.8.2-.9-.2-2.1-.8-3.2-1.8-1-1-1.6-2.1-1.8-3-.2-.7 0-1.4.4-2.1Z"/></svg>
+              <span data-i18n="contact.whatsapp">Escribime por WhatsApp</span><svg class="ui-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12 12 4M5 4h7v7"/></svg>
+            </a>
+            <p data-i18n="contact.reassurance">Contame sobre tu negocio: te orientamos y vemos los próximos pasos, sin compromiso.</p>
+          </div>
           <svg class="contact-spark ui-sparkle" viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2.5 2.4 7.1 7.1 2.4-7.1 2.4-2.4 7.1-2.4-7.1-7.1-2.4 7.1-2.4L12 2.5Z"/></svg>
         </div>
       </section>
@@ -288,10 +359,10 @@
         <button class="dialog-close" type="button" data-close-dialog aria-label="Cerrar demo" data-i18n-aria-label="demo.close"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m5 5 10 10M15 5 5 15"/></svg></button>
       </div>
       <div class="demo-ruca-page">
-        <div class="demo-ruca-nav"><img src="assets/ruca-logo.png" alt="Ruca Pediátrico" loading="lazy"><span data-i18n="demo.ruca.nav">El espacio　 Profesionales　 Ubicación</span><svg class="demo-menu-icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M3 5h14M3 10h14M3 15h14"/></svg></div>
+        <div class="demo-ruca-nav"><img src="assets/ruca-logo.png" alt="Ruca Pediátrico" width="400" height="149" loading="lazy"><span data-i18n="demo.ruca.nav">El espacio　 Profesionales　 Ubicación</span><svg class="demo-menu-icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M3 5h14M3 10h14M3 15h14"/></svg></div>
         <div class="demo-ruca-hero">
           <div><small data-i18n="demo.ruca.kicker">PEDIATRÍA EN SANTA ROSA</small><h3 data-i18n-html="demo.ruca.title">Un lugar para crecer <em>con confianza.</em></h3><p data-i18n="demo.ruca.description">Un espacio dedicado a acompañar la salud y el bienestar de las infancias, con cercanía y cuidado en cada etapa.</p><div class="demo-ruca-actions"><span class="demo-ruca-whatsapp" data-i18n="demo.ruca.whatsapp">Escribinos por WhatsApp</span><a class="demo-ruca-site" href="https://rucapediatrico.com.ar/" target="_blank" rel="noopener noreferrer"><span data-i18n="demo.ruca.link">Conocé Ruca</span><svg class="ui-arrow-down" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3v10m-4-4 4 4 4-4"/></svg></a></div></div>
-          <figure class="demo-ruca-photo"><img src="assets/ruca-equipo.jpg" alt="Patricia Jannello y Soledad Hernández, profesionales de Ruca" data-i18n-alt="demo.ruca.photoAlt" loading="lazy"><figcaption data-i18n="demo.ruca.photoCaption">Patricia y Soledad, parte del equipo de Ruca</figcaption><div class="demo-ruca-controls" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="m10 3-5 5 5 5"/></svg><i></i><i></i><i></i><i></i><i></i><i></i><i></i><svg viewBox="0 0 16 16"><path d="m6 3 5 5-5 5"/></svg></div></figure>
+          <figure class="demo-ruca-photo"><img src="assets/ruca-equipo.jpg" alt="Patricia Jannello y Soledad Hernández, profesionales de Ruca" data-i18n-alt="demo.ruca.photoAlt" width="853" height="1280" loading="lazy"><figcaption data-i18n="demo.ruca.photoCaption">Patricia y Soledad, parte del equipo de Ruca</figcaption><div class="demo-ruca-controls" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="m10 3-5 5 5 5"/></svg><i></i><i></i><i></i><i></i><i></i><i></i><i></i><svg viewBox="0 0 16 16"><path d="m6 3 5 5-5 5"/></svg></div></figure>
         </div>
         <div class="demo-ruca-bottom"><strong data-i18n="demo.ruca.bottom">Un espacio cálido para acompañar a cada familia.</strong><span>Santa Rosa · La Pampa</span></div>
       </div>
@@ -304,8 +375,8 @@
         <button class="dialog-close" type="button" data-close-dialog aria-label="Cerrar demo" data-i18n-aria-label="demo.close"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m5 5 10 10M15 5 5 15"/></svg></button>
       </div>
       <div class="demo-blue-page">
-        <div class="demo-blue-nav"><img src="assets/blue-logo.png" alt="Blue Sushi" loading="lazy"><div class="demo-blue-nav-links"><a href="#demo-blue-about" data-i18n="demo.blue.nav.about">Quiénes somos</a><a href="#demo-blue-menu" data-i18n="demo.blue.nav.pieces">Piezas</a><a href="#demo-blue-order" data-i18n="demo.blue.nav.order">Pedir</a></div></div>
-        <div class="demo-blue-hero" id="demo-blue-about"><div><small data-i18n="demo.blue.kicker">PIONEROS DEL SUSHI EN ARGENTINA</small><h3 data-i18n-html="demo.blue.title">Sushi con historia en el corazón de <em>La Pampa</em></h3><p data-i18n="demo.blue.description">Una de las primeras casas de sushi de Argentina, ahora en Santa Rosa. Armá tu pedido online y retiralo o recibilo en tu casa.</p><div class="demo-blue-actions"><span class="demo-blue-order-cta" data-i18n="demo.blue.hero.order">Hacer un pedido</span><a href="#demo-blue-menu"><span data-i18n="demo.blue.hero.menu">Ver las piezas</span><svg class="ui-arrow-down" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3v10m-4-4 4 4 4-4"/></svg></a></div></div><div class="demo-blue-logo-orbit"><img src="assets/blue-logo.png" alt="Blue Sushi"></div></div>
+        <div class="demo-blue-nav"><img src="assets/blue-logo.png" alt="Blue Sushi" width="900" height="300" loading="lazy"><div class="demo-blue-nav-links"><a href="#demo-blue-about" data-i18n="demo.blue.nav.about">Quiénes somos</a><a href="#demo-blue-menu" data-i18n="demo.blue.nav.pieces">Piezas</a><a href="#demo-blue-order" data-i18n="demo.blue.nav.order">Pedir</a></div></div>
+        <div class="demo-blue-hero" id="demo-blue-about"><div><small data-i18n="demo.blue.kicker">PIONEROS DEL SUSHI EN ARGENTINA</small><h3 data-i18n-html="demo.blue.title">Sushi con historia en el corazón de <em>La Pampa</em></h3><p data-i18n="demo.blue.description">Una de las primeras casas de sushi de Argentina, ahora en Santa Rosa. Armá tu pedido online y retiralo o recibilo en tu casa.</p><div class="demo-blue-actions"><span class="demo-blue-order-cta" data-i18n="demo.blue.hero.order">Hacer un pedido</span><a href="#demo-blue-menu"><span data-i18n="demo.blue.hero.menu">Ver las piezas</span><svg class="ui-arrow-down" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3v10m-4-4 4 4 4-4"/></svg></a></div></div><div class="demo-blue-logo-orbit"><img src="assets/blue-logo.png" alt="Blue Sushi" width="900" height="300"></div></div>
         <div class="demo-menu" id="demo-blue-menu">
           <div class="demo-menu-heading"><div><small data-i18n="demo.blue.menu.kicker">UN RECORRIDO POR LA CARTA</small><h3 data-i18n="demo.blue.menu.title">Algo rico te espera.</h3></div><div class="demo-tabs" role="group" aria-label="Categorías de menú" data-i18n-aria-label="demo.blue.menu.label">
             <button type="button" data-menu-tab="sushi" aria-pressed="true" data-i18n="demo.blue.menu.sushi">Sushi</button>
